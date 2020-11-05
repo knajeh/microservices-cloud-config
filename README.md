@@ -1,1 +1,1 @@
-# microservices-cloud-config
+# cloud-config
