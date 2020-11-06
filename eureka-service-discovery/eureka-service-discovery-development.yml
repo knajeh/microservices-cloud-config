@@ -1,0 +1,22 @@
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+logging:
+  level:
+    com:
+      netflix:
+        discovery: 'OFF'
+        eureka: 'OFF'
+server:
+  port: 8763
+spring:
+  application:
+    name: eureka-service-discovery
