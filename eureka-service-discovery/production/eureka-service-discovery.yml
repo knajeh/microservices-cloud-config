@@ -16,7 +16,7 @@ logging:
         discovery: 'OFF'
         eureka: 'OFF'
 server:
-  port: 8763
+  port: 8765
 spring:
   application:
     name: eureka-service-discovery
